@@ -1,0 +1,22 @@
+developer-portfolio/
+├── src/
+│   ├── main/
+│   │   ├── java/com/portfolio/developerportfolio/
+│   │   │   ├── DeveloperPortfolioApplication.java
+│   │   │   ├── controller/PortfolioController.java
+│   │   │   ├── model/ContactMessage.java
+│   │   │   ├── model/PortfolioProject.java
+│   │   │   └── service/ContactService.java
+│   │   └── resources/
+│   │       ├── templates/index.html
+│   │       ├── static/css/style.css
+│   │       ├── static/js/script.js
+│   │       ├── static/images/README.txt
+│   │       └── application.properties
+│   └── test/java/com/portfolio/developerportfolio/
+│       └── DeveloperPortfolioApplicationTests.java
+├── .gitignore
+├── Dockerfile
+├── pom.xml
+├── README.md
+└── render.yaml
